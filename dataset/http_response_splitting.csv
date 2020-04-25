@@ -1,0 +1,1321 @@
+num,cveid,cweid,exploits,vtype,pub_date,upd_date,score,gained_access_level,access,complexity,authentication,conf,integ,avilability,description
+"
+ 
+											1					",CVE-2019-5314,79,"
+
+
+","
+						XSS Http R.Spl. 					",2019-09-13,2019-09-16,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Some web components in the ArubaOS software are vulnerable to HTTP Response splitting (CRLF injection) and Reflected XSS. An attacker would be able to accomplish this by sending certain URL parameters that would trigger this vulnerability.					"
+"
+ 
+											2					",CVE-2018-16181,,"
+
+
+","
+						Http R.Spl. 					",2019-01-09,2019-01-09,0.0,None,???,???,???,???,???,???,"
+						HTTP header injection vulnerability in i-FILTER Ver.9.50R05 and earlier may allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks that may result in an arbitrary script injection or setting an arbitrary cookie values via unspecified vectors.					"
+"
+ 
+											3					",CVE-2018-11347,,"
+
+
+","
+						Http R.Spl. 					",2018-12-04,2018-12-04,0.0,None,???,???,???,???,???,???,"
+						The YunoHost 2.7.2 through 2.7.14 web application is affected by one HTTP Response Header Injection. This flaw allows an attacker to inject, into the response from the server, one or several HTTP Header. It requires an interaction with the user to send him the malicious link. It could be used to perform other attacks such as user redirection to a malicious website, HTTP response splitting, or HTTP cache poisoning.					"
+"
+ 
+											4					",CVE-2018-7830,113,"
+
+
+","
+						DoS Http R.Spl. 					",2018-11-30,2018-12-28,5.0,None,Remote,Low,Not required,None,None,Partial,"
+						Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting') vulnerability exists in the embedded web servers in all Modicon M340, Premium, Quantum PLCs and BMXNOR0200 where a denial of service can occur for ~1 minute by sending a specially crafted HTTP request.					"
+"
+ 
+											5					",CVE-2018-6603,79,"
+
+
+","
+						XSS Http R.Spl. 					",2018-02-07,2018-03-13,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Promise Technology WebPam Pro-E devices allow remote attackers to conduct XSS, HTTP Response Splitting, and CRLF Injection attacks via JavaScript code in a PHPSESSID cookie.					"
+"
+ 
+											6					",CVE-2018-1549,113,"
+
+
+","
+						XSS Http R.Spl. +Info 					",2018-07-10,2018-08-31,4.9,None,Remote,Medium,Single system,Partial,Partial,None,"
+						IBM Rational Quality Manager 5.0 through 5.0.2 and 6.0 through 6.0.5 are vulnerable to HTTP response splitting attacks. A remote attacker could exploit this vulnerability using specially-crafted URL to cause the server to return a split response, once the URL is clicked. This would allow the attacker to perform further attacks, such as Web cache poisoning, cross-site scripting, and possibly obtain sensitive information. IBM X-Force ID: 142658.					"
+"
+ 
+											7					",CVE-2018-1474,113,"
+
+
+","
+						XSS Http R.Spl. +Info 					",2018-12-12,2019-01-02,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						IBM BigFix Platform 9.2.0 through 9.2.14 and 9.5 through 9.5.9 is vulnerable to HTTP response splitting attacks, caused by improper validation of user-supplied input. A remote attacker could exploit this vulnerability to inject arbitrary HTTP headers and cause the server to return a split response, once the URL is clicked. This would allow the attacker to perform further attacks, such as Web cache poisoning or cross-site scripting, and possibly obtain sensitive information. IBM X-force ID: 140692.					"
+"
+ 
+											8					",CVE-2018-1319,79,"
+
+
+","
+						XSS Http R.Spl. 					",2018-03-15,2018-04-11,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						In Apache Allura prior to 1.8.1, attackers may craft URLs that cause HTTP response splitting. If a victim goes to a maliciously crafted URL, unwanted results may occur including XSS or service denial for the victim's browsing session.					"
+"
+ 
+											9					",CVE-2018-1067,113,"
+
+
+","
+						Http R.Spl. 					",2018-05-21,2019-04-26,5.8,None,Remote,Medium,Not required,Partial,Partial,None,"
+						In Undertow before versions 7.1.2.CR1, 7.1.2.GA it was found that the fix for CVE-2016-4993 was incomplete and Undertow web server is vulnerable to the injection of arbitrary HTTP headers, and also response splitting, due to insufficient sanitization and validation of user input before the input is used as part of an HTTP header value.					"
+"
+ 
+											10					",CVE-2017-17742,113,"
+
+
+","
+						Http R.Spl. 					",2018-04-03,2018-11-30,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Ruby before 2.2.10, 2.3.x before 2.3.7, 2.4.x before 2.4.4, 2.5.x before 2.5.1, and 2.6.0-preview1 allows an HTTP Response Splitting attack. An attacker can inject a crafted key and value into an HTTP response for the HTTP server of WEBrick.					"
+"
+ 
+											11					",CVE-2017-12309,113,"
+
+
+","
+						XSS Http R.Spl. 					",2017-11-16,2017-12-06,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						A vulnerability in the Cisco Email Security Appliance (ESA) could allow an unauthenticated, remote attacker to conduct a HTTP response splitting attack. The vulnerability is due to the failure of the application or its environment to properly sanitize input values. An attacker could exploit this vulnerability by injecting malicious HTTP headers, controlling the response body, or splitting the response into multiple responses. An exploit could allow the attacker to perform cross-site scripting attacks, cross-user defacement, web cache poisoning, and similar exploits. Cisco Bug IDs: CSCvf16705.					"
+"
+ 
+											12					",CVE-2017-12308,113,"
+
+
+","
+						Exec Code Http R.Spl. 					",2018-01-18,2018-02-06,5.8,None,Remote,Medium,Not required,Partial,Partial,None,"
+						A vulnerability in the web framework of Cisco Small Business Managed Switches software could allow an unauthenticated, remote attacker to conduct an HTTP response splitting attack against a user of the web interface of an affected system. The vulnerability is due to insufficient input validation of some parameters that are passed to the web server of the affected system. An attacker could exploit this vulnerability by convincing a user to follow a malicious link or by intercepting a user request and injecting malicious code into the request. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected web interface or allow the attacker to access sensitive browser-based information. This vulnerability affects the following Cisco Small Business 300 and 500 Series Managed Switches: Cisco 350 Series Managed Switches, Cisco 350X Series Stackable Managed Switches, Cisco 550X Series Stackable Managed Switches, Cisco ESW2 Series Advanced Switches, Cisco Small Business 300 Series Managed Switches, Cisco Small Business 500 Series Stackable Managed Switches. Cisco Bug IDs: CSCvg29980.					"
+"
+ 
+											13					",CVE-2017-7459,284,"
+
+
+","
+						Http R.Spl. 					",2017-06-26,2017-06-29,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						ntopng before 3.0 allows HTTP Response Splitting.					"
+"
+ 
+											14					",CVE-2017-7443,113,"
+
+
+","
+						Http R.Spl. 					",2017-04-05,2017-04-12,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						apt-cacher before 1.7.15 and apt-cacher-ng before 3.4 allow HTTP response splitting via encoded newline characters, related to lack of blocking for the %0[ad] regular expression.					"
+"
+ 
+											15					",CVE-2017-7320,79,"
+
+
+","
+						DoS XSS Http R.Spl. 					",2017-03-30,2017-03-31,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						setup/controllers/language.php in MODX Revolution 2.5.4-pl and earlier does not properly constrain the language parameter, which allows remote attackers to conduct Cookie-Bombing attacks and cause a denial of service (cookie quota exhaustion), or conduct HTTP Response Splitting attacks with resultant XSS, via an invalid parameter value.					"
+"
+ 
+											16					",CVE-2017-5868,93,"
+
+
+","
+						Http R.Spl. 					",2017-05-25,2017-06-06,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the web interface in OpenVPN Access Server 2.1.4 allows remote attackers to inject arbitrary HTTP headers and consequently conduct session fixation attacks and possibly HTTP response splitting attacks via ""%0A"" characters in the PATH_INFO to __session_start__/.					"
+"
+ 
+											17					",CVE-2017-1503,79,"
+
+
+","
+						XSS Http R.Spl. +Info 					",2017-10-10,2017-11-05,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						IBM WebSphere Application Server 7.0, 8.0, 8.5, and 9.0 is vulnerable to HTTP response splitting attacks. A remote attacker could exploit this vulnerability using specially-crafted URL to cause the server to return a split response, once the URL is clicked. This would allow the attacker to perform further attacks, such as Web cache poisoning, cross-site scripting, and possibly obtain sensitive information. IBM X-Force ID: 129578.					"
+"
+ 
+											18					",CVE-2017-1291,79,"
+
+
+","
+						XSS Http R.Spl. +Info 					",2017-05-26,2017-05-31,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						IBM Maximo Asset Management 7.5 and 7.6 is vulnerable to HTTP response splitting attacks. A remote attacker could exploit this vulnerability using specially-crafted URL to cause the server to return a split response, once the URL is clicked. This would allow the attacker to perform further attacks, such as Web cache poisoning, cross-site scripting, and possibly obtain sensitive information. IBM X-Force ID: 125152.					"
+"
+ 
+											19					",CVE-2017-1262,113,"
+
+
+","
+						XSS Http R.Spl. +Info 					",2017-12-20,2018-01-03,5.8,None,Remote,Medium,Not required,Partial,Partial,None,"
+						IBM Security Guardium 10.0 is vulnerable to HTTP response splitting attacks. A remote attacker could exploit this vulnerability using specially-crafted URL to cause the server to return a split response, once the URL is clicked. This would allow the attacker to perform further attacks, such as Web cache poisoning, cross-site scripting, and possibly obtain sensitive information. IBM X-Force ID: 124737.					"
+"
+ 
+											20					",CVE-2016-8743,19,"
+
+
+","
+						Http R.Spl. 					",2017-07-27,2018-04-24,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Apache HTTP Server, in all releases prior to 2.2.32 and 2.4.25, was liberal in the whitespace accepted from requests and sent in response lines and headers. Accepting these different behaviors represented a security concern when httpd participates in any chain of proxies or interacts with back-end application servers, either through mod_proxy or using conventional CGI mechanisms, and may result in request smuggling, response splitting and cache pollution.					"
+"
+ 
+											21					",CVE-2016-6839,113,"
+
+
+","
+						Http R.Spl. 					",2016-09-07,2016-09-08,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Huawei FusionAccess before V100R006C00 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											22					",CVE-2016-6484,93,"
+
+
+","
+						Http R.Spl. 					",2017-01-23,2018-10-09,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Infoblox Network Automation NetMRI before 7.1.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the contentType parameter in a login action to config/userAdmin/login.tdf.					"
+"
+ 
+											23					",CVE-2016-5331,93,"
+
+
+","
+						Http R.Spl. 					",2016-08-07,2018-10-09,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in VMware vCenter Server 6.0 before U2 and ESXi 6.0 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											24					",CVE-2016-5325,113,"
+
+
+","
+						Http R.Spl. 					",2016-10-10,2018-01-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the ServerResponse#writeHead function in Node.js 0.10.x before 0.10.47, 0.12.x before 0.12.16, 4.x before 4.6.0, and 6.x before 6.7.0 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the reason argument.					"
+"
+ 
+											25					",CVE-2016-4993,93,"
+
+
+","
+						Http R.Spl. 					",2016-09-26,2017-12-14,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the Undertow web server in WildFly 10.0.0, as used in Red Hat JBoss Enterprise Application Platform (EAP) 7.x before 7.0.2, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											26					",CVE-2016-4975,93,"
+
+
+","
+						Http R.Spl. 					",2018-08-14,2018-10-19,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Possible CRLF injection allowing HTTP response splitting attacks for sites which use mod_userdir. This issue was mitigated by changes made in 2.4.25 and 2.2.32 which prohibit CR or LF injection into the ""Location"" or other outbound header key or value. Fixed in Apache HTTP Server 2.4.25 (Affected 2.4.1-2.4.23). Fixed in Apache HTTP Server 2.2.32 (Affected 2.2.0-2.2.31).					"
+"
+ 
+											27					",CVE-2016-3166,,"
+
+
+","
+						Http R.Spl. 					",2016-04-12,2016-04-12,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the drupal_set_header function in Drupal 6.x before 6.38, when used with PHP before 5.1.2, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks by leveraging a module that allows user-submitted data to appear in HTTP headers.					"
+"
+ 
+											28					",CVE-2016-2303,,"
+
+
+","
+						Http R.Spl. 					",2016-04-21,2016-04-27,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Ecava IntegraXor before 5.0 build 4522 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											29					",CVE-2016-2216,20,"
+
+
+","
+						Http R.Spl. Bypass 					",2016-04-07,2017-06-30,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						The HTTP header parsing code in Node.js 0.10.x before 0.10.42, 0.11.6 through 0.11.16, 0.12.x before 0.12.10, 4.x before 4.3.0, and 5.x before 5.6.0 allows remote attackers to bypass an HTTP response-splitting protection mechanism via UTF-8 encoded Unicode characters in the HTTP header, as demonstrated by %c4%8d%c4%8a.					"
+"
+ 
+											30					",CVE-2016-1900,,"
+
+
+","
+						XSS Http R.Spl. 					",2016-01-20,2016-12-07,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the cgit_print_http_headers function in ui-shared.c in CGit before 0.12 allows remote attackers with permission to write to a repository to inject arbitrary HTTP headers and conduct HTTP response splitting attacks or cross-site scripting (XSS) attacks via newline characters in a filename.					"
+"
+ 
+											31					",CVE-2016-1899,,"
+
+
+","
+						XSS Http R.Spl. 					",2016-01-20,2016-12-07,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the ui-blob handler in CGit before 0.12 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks or cross-site scripting (XSS) attacks via CRLF sequences in the mimetype parameter, as demonstrated by a request to blob/cgit.c.					"
+"
+ 
+											32					",CVE-2016-1133,,"
+
+
+","
+						Http R.Spl. 					",2016-01-16,2016-01-21,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the on_req function in lib/handler/redirect.c in H2O before 1.6.2 and 1.7.x before 1.7.0-beta3 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URI.					"
+"
+ 
+											33					",CVE-2016-0902,,"
+
+
+","
+						Http R.Spl. 					",2016-05-07,2016-11-30,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in EMC RSA Authentication Manager before 8.1 SP1 P14 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											34					",CVE-2016-0789,20,"
+
+
+","
+						Http R.Spl. 					",2016-04-07,2018-01-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the CLI command documentation in Jenkins before 1.650 and LTS before 1.642.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											35					",CVE-2016-0400,,"
+
+
+","
+						Http R.Spl. 					",2016-07-02,2017-09-02,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM WebSphere eXtreme Scale 7.1.0 before 7.1.0.3, 7.1.1 before 7.1.1.1, 8.5 before 8.5.0.3, and 8.6 before 8.6.0.8 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											36					",CVE-2016-0359,,"
+
+
+","
+						Http R.Spl. 					",2016-07-03,2017-08-31,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM WebSphere Application Server (WAS) 7.0 before 7.0.0.43, 8.0 before 8.0.0.13, 8.5 Full before 8.5.5.10, and 8.5 Liberty before Liberty Fix Pack 16.0.0.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											37					",CVE-2015-9345,20,"
+
+
+","
+						Http R.Spl. 					",2019-08-27,2019-08-28,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						The link-log plugin before 2.0 for WordPress has HTTP Response Splitting.					"
+"
+ 
+											38					",CVE-2015-8852,,"
+
+
+","
+						Http R.Spl. 					",2016-04-25,2016-11-30,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Varnish 3.x before 3.0.7, when used in certain stacked installations, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a header line terminated by a \r (carriage return) character in conjunction with multiple Content-Length headers in an HTTP request.					"
+"
+ 
+											39					",CVE-2015-5285,,"
+
+
+","
+						Http R.Spl. 					",2015-10-29,2015-10-30,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Kallithea before 0.3 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the came_from parameter to _admin/login.					"
+"
+ 
+											40					",CVE-2015-5245,,"
+
+
+","
+						Http R.Spl. 					",2015-12-03,2015-12-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the Ceph Object Gateway (aka radosgw or RGW) in Ceph before 0.94.4 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted bucket name.					"
+"
+ 
+											41					",CVE-2015-5144,20,"
+
+
+","
+						Http R.Spl. 					",2015-07-14,2017-09-21,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Django before 1.4.21, 1.5.x through 1.6.x, 1.7.x before 1.7.9, and 1.8.x before 1.8.3 uses an incorrect regular expression, which allows remote attackers to inject arbitrary headers and conduct HTTP response splitting attacks via a newline character in an (1) email message to the EmailValidator, a (2) URL to the URLValidator, or unspecified vectors to the (3) validate_ipv4_address or (4) validate_slug validator.					"
+"
+ 
+											42					",CVE-2015-2028,,"
+
+
+","
+						Http R.Spl. 					",2015-10-03,2015-10-05,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM WebSphere eXtreme Scale 7.1.0 before 7.1.0.3 and 7.1.1 before 7.1.1.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											43					",CVE-2015-2017,,"
+
+
+","
+						Http R.Spl. 					",2015-11-08,2016-12-07,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM WebSphere Application Server (WAS) 6.1 through 6.1.0.47, 7.0 before 7.0.0.39, 8.0 before 8.0.0.12, and 8.5 before 8.5.5.8 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											44					",CVE-2015-0881,,"
+
+
+","
+						Http R.Spl. 					",2015-02-20,2015-03-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Squid before 3.1.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted header in a response.					"
+"
+ 
+											45					",CVE-2015-0770,20,"
+
+
+","
+						Http R.Spl. 					",2015-06-07,2017-01-04,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Cisco TelePresence TC 6.x before 6.3.4 and 7.x before 7.3.3 on Integrator C SX20 devices allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL, aka Bug ID CSCut79341.					"
+"
+ 
+											46					",CVE-2015-0733,113,"
+
+
+","
+						XSS Http R.Spl. 					",2015-05-30,2017-01-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the HTTP Header Handler in Digital Broadband Delivery System in Cisco Headend System Release allows remote attackers to inject arbitrary HTTP headers, and conduct HTTP response splitting attacks or cross-site scripting (XSS) attacks, via a crafted request, aka Bug ID CSCur25580.					"
+"
+ 
+											47					",CVE-2015-0196,,"
+
+
+","
+						Http R.Spl. 					",2015-06-29,2015-06-29,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM WebSphere Commerce 6.0 through 6.0.0.11 and 7.0 before 7.0.0.8 Cumulative iFix 2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											48					",CVE-2014-9650,,"
+
+
+","
+						Http R.Spl. 					",2015-01-27,2018-08-13,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the management plugin in RabbitMQ 2.1.0 through 3.4.x before 3.4.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the download parameter to api/definitions.					"
+"
+ 
+											49					",CVE-2014-9564,93,"
+
+
+","
+						XSS Http R.Spl. +Info 					",2017-08-25,2017-08-30,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM Flex System EN6131 40Gb Ethernet and IB6131 40Gb Infiniband Switch firmware before 3.4.1110 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks and resulting web cache poisoning or cross-site scripting (XSS) attacks, or obtain sensitive information via multiple unspecified parameters.					"
+"
+ 
+											50					",CVE-2014-8150,,"
+
+
+","
+						Http R.Spl. 					",2015-01-15,2018-01-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in libcurl 6.0 through 7.x before 7.40.0, when using an HTTP proxy, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in a URL.					"
+"
+ 
+											51					",CVE-2014-6151,20,"
+
+
+","
+						Http R.Spl. 					",2014-10-25,2017-09-07,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						CRLF injection vulnerability in IBM Tivoli Integrated Portal (TIP) 2.2.x allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											52					",CVE-2014-4803,,"
+
+
+","
+						Http R.Spl. 					",2015-02-12,2017-08-28,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						CRLF injection vulnerability in the Universal Access implementation in IBM Curam Social Program Management 6.0 SP2 before EP26, 6.0.4 before 6.0.4.5 iFix007, and 6.0.5 before 6.0.5.5 iFix003, when WebSphere Application Server is not used, allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via an unspecified parameter.					"
+"
+ 
+											53					",CVE-2014-3427,,"
+
+
+","
+						Http R.Spl. 					",2014-07-16,2018-10-09,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Yealink VoIP Phones with firmware 28.72.0.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the model parameter to servlet.					"
+"
+ 
+											54					",CVE-2014-3069,,"
+
+
+","
+						Http R.Spl. 					",2014-08-11,2017-08-28,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in the Universal Access component in IBM Curam Social Program Management (SPM) 6.0.5.5, when WebSphere Application Server is not used, allow remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified parameters.					"
+"
+ 
+											55					",CVE-2014-3026,,"
+
+
+","
+						Http R.Spl. 					",2014-07-29,2017-08-28,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						CRLF injection vulnerability in IBM Maximo Asset Management 7.5 through 7.5.0.6, and 7.5 through 7.5.0.3 and 7.5.1 through 7.5.1.2 for SmartCloud Control Desk, allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											56					",CVE-2014-3012,,"
+
+
+","
+						Http R.Spl. 					",2014-06-18,2017-08-28,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in IBM Curam Social Program Management 5.2 SP1 through 6.0.5.4 allow remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified parameters to custom JSPs.					"
+"
+ 
+											57					",CVE-2014-2017,93,"
+
+
+","
+						Http R.Spl. 					",2018-01-18,2018-02-06,5.8,None,Remote,Medium,Not required,Partial,Partial,None,"
+						CRLF injection vulnerability in OXID eShop Professional Edition before 4.7.11 and 4.8.x before 4.8.4, Enterprise Edition before 5.0.11 and 5.1.x before 5.1.4, and Community Edition before 4.7.11 and 4.8.x before 4.8.4 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											58					",CVE-2014-1956,,"
+
+
+","
+						Http R.Spl. 					",2014-04-30,2014-07-18,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in FortiGuard FortiWeb before 5.0.3 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											59					",CVE-2014-1406,20,"
+
+
+","
+						Http R.Spl. 					",2014-01-10,2014-01-10,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in goform/formWlSiteSurvey on the Conceptronic C54APM access point with runtime code 1.26 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the submit-url parameter in a Refresh action.					"
+"
+ 
+											60					",CVE-2013-6009,94,"
+
+
+","
+						Http R.Spl. 					",2013-10-03,2013-10-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Open-Xchange AppSuite before 7.2.2, when using AJP in certain conditions, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the ajax/defer servlet.					"
+"
+ 
+											61					",CVE-2013-3998,94,"
+
+
+","
+						Http R.Spl. 					",2014-03-26,2017-08-28,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						CRLF injection vulnerability in the Web Application Enterprise Console in IBM InfoSphere BigInsights 1.1 and 2.x before 2.1 FP2 allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											62					",CVE-2013-3373,94,"
+
+
+","
+						Http R.Spl. 					",2013-08-23,2013-08-26,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Request Tracker (RT) 3.8.x before 3.8.17 and 4.0.x before 4.0.13 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a MIME header.					"
+"
+ 
+											63					",CVE-2013-2950,94,"
+
+
+","
+						Http R.Spl. 					",2013-06-03,2017-08-28,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						CRLF injection vulnerability in IBM WebSphere Portal 6.1.0.x before 6.1.0.3 CF26, 6.1.5.x before 6.1.5 CF26, 7.0.0.x before 7.0.0.2 CF21, and 8.0.0.x through 8.0.0.1 CF5, when home substitution (aka uri.home.substitution) is enabled, allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											64					",CVE-2013-2652,79,"
+
+
+","
+						XSS Http R.Spl. 					",2013-11-02,2017-08-28,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in help/help_language.php in WebCollab 3.30 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the item parameter.					"
+"
+ 
+											65					",CVE-2013-1869,20,"
+
+
+","
+						XSS Http R.Spl. 					",2014-04-01,2014-04-01,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in spacewalk-java before 2.1.148-1 and Red Hat Network (RHN) Satellite 5.6 allows remote attackers to inject arbitrary HTTP headers, and conduct HTTP response splitting attacks and cross-site scripting (XSS) attacks, via the return_url parameter.					"
+"
+ 
+											66					",CVE-2013-1647,94,"
+
+
+","
+						Http R.Spl. 					",2013-09-05,2013-09-26,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in Open-Xchange Server before 6.20.7 rev14, 6.22.0 before rev13, and 6.22.1 before rev14 allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted parameter, as demonstrated by (1) the location parameter to ajax/redirect or (2) multiple infostore URIs.					"
+"
+ 
+											67					",CVE-2013-0670,20,"
+
+
+","
+						Http R.Spl. 					",2013-03-21,2013-03-22,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the HMI web application in Siemens WinCC (TIA Portal) 11 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL.					"
+"
+ 
+											68					",CVE-2012-6072,20,"
+
+
+","
+						Http R.Spl. 					",2013-02-24,2018-10-30,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Jenkins before 1.491, Jenkins LTS before 1.480.1, and Jenkins Enterprise 1.424.x before 1.424.6.13, 1.447.x before 1.447.4.1, and 1.466.x before 1.466.10.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											69					",CVE-2012-5572,20,"
+
+
+","
+						Http R.Spl. 					",2014-05-30,2014-06-24,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the cookie method (lib/Dancer/Cookie.pm) in Dancer before 1.3114 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a cookie name, a different vulnerability than CVE-2012-5526.					"
+"
+ 
+											70					",CVE-2012-5057,,"
+
+
+","
+						Http R.Spl. 					",2014-06-04,2014-06-04,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in ownCloud Server before 4.0.8 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the url path parameter.					"
+"
+ 
+											71					",CVE-2012-4388,20,"
+
+
+","
+						Http R.Spl. Bypass 					",2012-09-07,2013-09-11,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						The sapi_header_op function in main/SAPI.c in PHP 5.4.0RC2 through 5.4.0 does not properly determine a pointer during checks for %0D sequences (aka carriage return characters), which allows remote attackers to bypass an HTTP response-splitting protection mechanism via a crafted URL, related to improper interaction between the PHP header function and certain browsers, as demonstrated by Internet Explorer and Google Chrome.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2011-1398.					"
+"
+ 
+											72					",CVE-2012-4023,20,"
+
+
+","
+						Http R.Spl. 					",2012-11-08,2013-02-02,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Pebble before 2.6.4 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											73					",CVE-2012-3333,,"
+
+
+","
+						Http R.Spl. 					",2014-05-26,2017-08-28,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in IBM Maximo Asset Management 7.x before 7.5.0.6 and SmartCloud Control Desk 7.x before 7.5.0.3 and 7.5.1.x before 7.5.1.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted parameter in a URL.					"
+"
+ 
+											74					",CVE-2012-3301,20,"
+
+
+","
+						Http R.Spl. 					",2012-08-21,2017-08-28,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in the HTTP server in IBM Lotus Domino 8.5.x before 8.5.4 allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via crafted input involving (1) Mozilla Firefox 3.0.9 and earlier or (2) unspecified browsers.					"
+"
+ 
+											75					",CVE-2012-2943,,"
+
+						1						
+","
+						Http R.Spl. 					",2012-05-27,2017-08-28,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in cryptographp.inc.php in Cryptographp allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the cfg parameter.					"
+"
+ 
+											76					",CVE-2012-2374,20,"
+
+
+","
+						Http R.Spl. 					",2012-05-23,2012-09-04,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the tornado.web.RequestHandler.set_header function in Tornado before 2.2.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via crafted input.					"
+"
+ 
+											77					",CVE-2012-2041,94,"
+
+
+","
+						Http R.Spl. 					",2012-06-13,2012-06-13,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the Component Browser in Adobe ColdFusion 8.0 through 9.0.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											78					",CVE-2012-0310,94,"
+
+
+","
+						Http R.Spl. 					",2012-01-12,2017-08-28,5.8,None,Remote,Medium,Not required,None,Partial,Partial,"
+						CRLF injection vulnerability in Cogent DataHub 7.1.2 and earlier, Cascade DataHub 6.4.20 and earlier, and OPC DataHub 6.4.20 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											79					",CVE-2011-4586,,"
+
+
+","
+						Http R.Spl. 					",2012-07-20,2017-12-21,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in calendar/set.php in the Calendar subsystem in Moodle 1.9.x before 1.9.15, 2.0.x before 2.0.6, and 2.1.x before 2.1.3 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											80					",CVE-2011-4545,94,"
+
+
+","
+						Http R.Spl. 					",2011-12-02,2011-12-12,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in admin/displayImage.php in Prestashop 1.4.4.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the name parameter.					"
+"
+ 
+											81					",CVE-2011-4512,94,"
+
+
+","
+						Http R.Spl. 					",2012-02-03,2012-02-06,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the HMI web server in Siemens WinCC flexible 2004, 2005, 2007, and 2008 before SP3; WinCC V11 (aka TIA portal) before SP2 Update 1; the TP, OP, MP, Comfort Panels, and Mobile Panels SIMATIC HMI panels; WinCC V11 Runtime Advanced; and WinCC flexible Runtime allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											82					",CVE-2011-4237,94,"
+
+
+","
+						Http R.Spl. 					",2012-05-03,2012-06-08,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in autologin.jsp in Cisco CiscoWorks Common Services 4.0, as used in Cisco Prime LAN Management Solution and other products, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the URL parameter, aka Bug ID CSCtu18693.					"
+"
+ 
+											83					",CVE-2011-4203,94,"
+
+
+","
+						Http R.Spl. 					",2011-12-22,2012-01-12,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in calendar/set.php in the Calendar component in Moodle 1.9.x before 1.9.15, 2.0.x before 2.0.6, 2.1.x before 2.1.3, and 2.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via vectors involving the url variable.					"
+"
+ 
+											84					",CVE-2011-3285,20,"
+
+
+","
+						Http R.Spl. 					",2012-05-02,2017-12-06,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in /+CSCOE+/logon.html on Cisco Adaptive Security Appliances (ASA) 5500 series devices with software 8.0 through 8.4 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors, aka Bug ID CSCth63101.					"
+"
+ 
+											85					",CVE-2011-3186,94,"
+
+
+","
+						Http R.Spl. 					",2011-08-29,2019-08-08,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in actionpack/lib/action_controller/response.rb in Ruby on Rails 2.3.x before 2.3.13 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the Content-Type header.					"
+"
+ 
+											86					",CVE-2011-3000,94,"
+
+
+","
+						Http R.Spl. 					",2011-09-28,2017-09-18,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Mozilla Firefox before 3.6.23 and 4.x through 6, Thunderbird before 7.0, and SeaMonkey before 2.4 do not properly handle HTTP responses that contain multiple Location, Content-Length, or Content-Disposition headers, which makes it easier for remote attackers to conduct HTTP response splitting attacks via crafted header values.					"
+"
+ 
+											87					",CVE-2011-2732,94,"
+
+
+","
+						Http R.Spl. 					",2012-12-05,2012-12-06,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the logout functionality in VMware SpringSource Spring Security before 2.0.7 and 3.0.x before 3.0.6 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the spring-security-redirect parameter.					"
+"
+ 
+											88					",CVE-2011-1895,94,"
+
+
+","
+						XSS Http R.Spl. 					",2011-10-11,2018-10-12,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Microsoft Forefront Unified Access Gateway (UAG) 2010 Gold, Update 1, Update 2, and SP1 allows remote attackers to inject arbitrary HTTP headers, and conduct HTTP response splitting attacks and cross-site scripting (XSS) attacks, via unspecified vectors, aka ""ExcelTable Response Splitting XSS Vulnerability.""					"
+"
+ 
+											89					",CVE-2011-1398,20,"
+
+
+","
+						Http R.Spl. Bypass 					",2012-08-30,2013-10-10,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						The sapi_header_op function in main/SAPI.c in PHP before 5.3.11 and 5.4.x before 5.4.0RC2 does not check for %0D sequences (aka carriage return characters), which allows remote attackers to bypass an HTTP response-splitting protection mechanism via a crafted URL, related to improper interaction between the PHP header function and certain browsers, as demonstrated by Internet Explorer and Google Chrome.					"
+"
+ 
+											90					",CVE-2011-0581,20,"
+
+
+","
+						Http R.Spl. 					",2011-02-10,2017-08-16,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in Adobe ColdFusion 8.0 through 9.0.1 allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified tags.					"
+"
+ 
+											91					",CVE-2010-4572,94,"
+
+
+","
+						Http R.Spl. 					",2011-01-28,2017-08-16,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in chart.cgi in Bugzilla before 3.2.10, 3.4.x before 3.4.10, 3.6.x before 3.6.4, and 4.0.x before 4.0rc2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the query string, a different vulnerability than CVE-2010-2761 and CVE-2010-4411.					"
+"
+ 
+											92					",CVE-2010-4411,,"
+
+
+","
+						Http R.Spl. 					",2010-12-06,2014-02-11,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						Unspecified vulnerability in CGI.pm 3.50 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unknown vectors.  NOTE: this issue exists because of an incomplete fix for CVE-2010-2761.					"
+"
+ 
+											93					",CVE-2010-4410,94,"
+
+
+","
+						Http R.Spl. 					",2010-12-06,2016-12-07,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the header function in (1) CGI.pm before 3.50 and (2) Simple.pm in CGI::Simple 1.112 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via vectors related to non-whitespace characters preceded by newline characters, a different vulnerability than CVE-2010-2761 and CVE-2010-3172.					"
+"
+ 
+											94					",CVE-2010-3913,94,"
+
+
+","
+						Http R.Spl. 					",2010-11-05,2010-11-09,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in TransWARE Active! mail 6 build 6.40.010047750 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											95					",CVE-2010-3172,94,"
+
+
+","
+						Http R.Spl. 					",2010-11-05,2010-12-16,2.6,None,Remote,High,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Bugzilla before 3.2.9, 3.4.x before 3.4.9, 3.6.x before 3.6.3, and 4.0.x before 4.0rc1, when Server Push is enabled in a web browser, allows remote attackers to inject arbitrary HTTP headers and content, and conduct HTTP response splitting attacks, via a crafted URL.					"
+"
+ 
+											96					",CVE-2010-3011,20,"
+
+
+","
+						Http R.Spl. 					",2010-09-17,2010-09-20,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in HP System Management Homepage (SMH) before 6.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											97					",CVE-2010-2761,94,"
+
+
+","
+						Http R.Spl. 					",2010-12-06,2016-12-07,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						The multipart_init function in (1) CGI.pm before 3.50 and (2) Simple.pm in CGI::Simple 1.112 and earlier uses a hardcoded value of the MIME boundary string in multipart/x-mixed-replace content, which allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via crafted input that contains this value, a different vulnerability than CVE-2010-3172.					"
+"
+ 
+											98					",CVE-2010-0155,94,"
+
+
+","
+						Http R.Spl. 					",2010-09-14,2018-10-10,3.5,None,Remote,Medium,Single system,None,Partial,None,"
+						CRLF injection vulnerability in load.php in the Local Management Interface (LMI) on the IBM Proventia Network Mail Security System (PNMSS) appliance with firmware before 2.5 allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the javaVersion parameter.					"
+"
+ 
+											99					",CVE-2009-4086,20,"
+
+						1						
+","
+						Http R.Spl. 					",2009-11-29,2017-08-16,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Xerver HTTP Server 4.31 and 4.32 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via certain byte sequences at the end of a URL.  NOTE: some of these details are obtained from third party information.					"
+"
+ 
+											100					",CVE-2009-2820,79,"
+
+
+","
+						XSS Http R.Spl. 					",2009-11-10,2017-09-18,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						The web interface in CUPS before 1.4.2, as used on Apple Mac OS X before 10.6.2 and other platforms, does not properly handle (1) HTTP headers and (2) HTML templates, which allows remote attackers to conduct cross-site scripting (XSS) attacks and HTTP response splitting attacks via vectors related to (a) the product's web interface, (b) the configuration of the print system, and (c) the titles of printed jobs, as demonstrated by an XSS attack that uses the kerberos parameter to the admin program, and leverages attribute injection and HTTP Parameter Pollution (HPP) issues.					"
+"
+ 
+											101					",CVE-2009-1777,20,"
+
+
+","
+						Http R.Spl. 					",2009-05-22,2018-10-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in FormMail.pl in Matt Wright FormMail 1.92, and possibly earlier, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the redirect parameter.					"
+"
+ 
+											102					",CVE-2009-1591,79,"
+
+
+","
+						XSS Http R.Spl. 					",2009-05-08,2009-05-23,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in CGI RESCUE Web Mailer before 1.04 allows remote attackers to inject arbitrary HTTP headers, and conduct cross-site scripting (XSS) or HTTP response splitting attacks, via CRLF sequences in an unspecified web form.					"
+"
+ 
+											103					",CVE-2009-1357,20,"
+
+
+","
+						Http R.Spl. 					",2009-04-23,2018-10-10,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in da/DA/Login in Sun Java System Delegated Administrator 6.2 through 6.4 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the HELP_PAGE parameter.					"
+"
+ 
+											104					",CVE-2009-1149,20,"
+
+
+","
+						Http R.Spl. 					",2009-03-26,2009-04-16,7.5,None,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in bs_disp_as_mime_type.php in the BLOB streaming feature in phpMyAdmin before 3.1.3.1 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the (1) c_type and possibly (2) file_type parameters.					"
+"
+ 
+											105					",CVE-2009-0868,20,"
+
+
+","
+						Http R.Spl. 					",2009-03-10,2017-08-16,6.8,None,Remote,Medium,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in the WebLink template in Fujitsu Jasmine2000 Enterprise Edition allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											106					",CVE-2008-7257,20,"
+
+
+","
+						Http R.Spl. 					",2010-06-29,2018-10-11,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in +webvpn+/index.html in WebVPN on Cisco Adaptive Security Appliances (ASA) 5580 series devices with software before 8.1(2) allows remote attackers to inject arbitrary HTTP headers as demonstrated by a redirect attack involving a %0d%0aLocation%3a sequence in a URI, or conduct HTTP response splitting attacks via unspecified vectors, aka Bug ID CSCsr09163.					"
+"
+ 
+											107					",CVE-2008-6121,20,"
+
+
+","
+						Http R.Spl. 					",2009-02-11,2017-08-07,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in SocialEngine (SE) 2.7 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the PHPSESSID cookie.					"
+"
+ 
+											108					",CVE-2008-5742,59,"
+
+
+","
+						Http R.Spl. 					",2008-12-26,2017-09-28,4.0,None,Remote,High,Not required,None,Partial,Partial,"
+						Multiple open redirect vulnerabilities in AIST NetCat 3.12 and earlier allow remote attackers to redirect users to arbitrary web sites and conduct phishing attacks via (1) the redirect parameter in a logoff action to modules/auth/index.php or (2) the url parameter to modules/linkmanager/redirect.php.  NOTE: this was reported within an ""HTTP Response Splitting"" section in the original disclosure.					"
+"
+ 
+											109					",CVE-2008-5189,352,"
+
+
+","
+						Http R.Spl. 					",2008-11-21,2019-08-08,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Ruby on Rails before 2.0.5 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a crafted URL to the redirect_to function.					"
+"
+ 
+											110					",CVE-2008-4283,20,"
+
+
+","
+						Http R.Spl. 					",2009-02-10,2017-08-07,10.0,Admin,Remote,Low,Not required,Complete,Complete,Complete,"
+						CRLF injection vulnerability in the WebContainer component in IBM WebSphere Application Server (WAS) 5.1.1.19 and earlier 5.1.x versions allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											111					",CVE-2008-3906,20,"
+
+
+","
+						Http R.Spl. 					",2008-09-04,2018-10-11,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Sys.Web in Mono 2.0 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the query string.					"
+"
+ 
+											112					",CVE-2008-2497,94,"
+
+
+","
+						Http R.Spl. 					",2008-05-28,2017-08-07,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Mambo before 4.6.4 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											113					",CVE-2008-0786,94,"
+
+
+","
+						Http R.Spl. 					",2008-02-14,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Cacti 0.8.7 before 0.8.7b and 0.8.6 before 0.8.6k, when running on older PHP interpreters, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											114					",CVE-2008-0456,94,"
+
+
+","
+						Http R.Spl. 					",2008-01-24,2019-08-15,2.6,None,Remote,High,Not required,None,Partial,None,"
+						CRLF injection vulnerability in the mod_negotiation module in the Apache HTTP Server 2.2.6 and earlier in the 2.2.x series, 2.0.61 and earlier in the 2.0.x series, and 1.3.39 and earlier in the 1.3.x series allows remote authenticated users to inject arbitrary HTTP headers and conduct HTTP response splitting attacks by uploading a file with a multi-line name containing HTTP header sequences and a file extension, which leads to injection within a (1) ""406 Not Acceptable"" or (2) ""300 Multiple Choices"" HTTP response when the extension is omitted in a request for the file.					"
+"
+ 
+											115					",CVE-2008-0202,94,"
+
+
+","
+						Http R.Spl. 					",2008-01-09,2018-10-15,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in index.php in ExpressionEngine 1.2.1 and earlier allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via the URL parameter.					"
+"
+ 
+											116					",CVE-2007-5615,94,"
+
+
+","
+						Http R.Spl. 					",2007-12-05,2009-06-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Mortbay Jetty before 6.1.6rc0 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											117					",CVE-2007-5595,113,"
+
+
+","
+						Http R.Spl. 					",2007-10-19,2018-10-26,5.1,None,Remote,High,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in the drupal_goto function in includes/common.inc Drupal 4.7.x before 4.7.8 and 5.x before 5.3 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via unspecified vectors.					"
+"
+ 
+											118					",CVE-2007-4190,,"
+
+
+","
+						XSS Http R.Spl. 					",2007-08-07,2008-11-15,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Joomla! before 1.0.13 (aka Sunglow) allows remote attackers to inject arbitrary HTTP headers and probably conduct HTTP response splitting attacks via CRLF sequences in the url parameter.  NOTE: this can be leveraged for cross-site scripting (XSS) attacks.  NOTE: some of these details are obtained from third party information.					"
+"
+ 
+											119					",CVE-2007-4164,,"
+
+
+","
+						Http R.Spl. 					",2007-08-07,2017-07-28,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in the redirect feature in Sun Java System Web Server 6.1 and 7.0 before 20070802, when the redirect Server Application Function (SAF) uses the url-prefix parameter and escape is disabled, or an Error directive uses the url-prefix parameter in obj.conf, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks.					"
+"
+ 
+											120					",CVE-2007-2618,,"
+
+
+","
+						Http R.Spl. 					",2007-05-11,2018-10-16,5.1,User,Remote,High,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in index.php in Drake CMS 0.4.0 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the lang parameter. NOTE: Drake CMS has only a beta version available, and the vendor has previously stated ""We do not consider security reports valid until the first official release of Drake CMS.""					"
+"
+ 
+											121					",CVE-2007-2550,,"
+
+
+","
+						Http R.Spl. 					",2007-05-09,2018-10-16,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in Devellion CubeCart 3.0.15 allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in a cookie name beginning with ""ccSID"" to (1) cart.php or (2) index.php.					"
+"
+ 
+											122					",CVE-2007-2404,,"
+
+
+","
+						XSS Http R.Spl. 					",2007-08-03,2017-07-28,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in CFNetwork on Apple Mac OS X 10.3.9 and 10.4.10 before 20070731 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in an unspecified context.  NOTE: this can be leveraged for cross-site scripting (XSS) attacks.					"
+"
+ 
+											123					",CVE-2007-2291,,"
+
+
+","
+						Http R.Spl. 					",2007-04-26,2018-10-16,7.5,None,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in the Digest Authentication support for Microsoft Internet Explorer 7.0.5730.11 allows remote attackers to conduct HTTP response splitting attacks via a LF (%0a) in the username attribute.					"
+"
+ 
+											124					",CVE-2007-2047,,"
+
+
+","
+						Http R.Spl. 					",2007-04-16,2008-09-05,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in www/delivery/ck.php in Openads 2.3 (aka Max Media Manager, MMM) before 0.3.31-alpha-pr3 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the destination parameter. NOTE: some of these details are obtained from third party information.					"
+"
+ 
+											125					",CVE-2007-2046,,"
+
+
+","
+						Sql Http R.Spl. 					",2007-04-16,2008-09-05,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						Multiple CRLF injection vulnerabilities in adclick.php in (a) Openads (phpAdsNew) 2.0.11 and earlier and (b) Openads for PostgreSQL (phpPgAds) 2.0.11 and earlier allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in (1) the dest parameter and (2) the Referer HTTP header.  NOTE: some of these details are obtained from third party information.					"
+"
+ 
+											126					",CVE-2007-1608,,"
+
+
+","
+						Http R.Spl. 					",2007-03-22,2017-07-28,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in IBM WebSphere Application Server (WAS) before 6.0.2.19 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a single CRLF sequence in a context that is not a valid multi-line header.					"
+"
+ 
+											127					",CVE-2007-0892,93,"
+
+
+","
+						Http R.Spl. 					",2007-02-12,2018-10-16,7.5,None,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in phpMyVisites before 2.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the url parameter, when the pagename parameter begins with ""FILE:"".					"
+"
+ 
+											128					",CVE-2007-0047,,"
+
+
+","
+						Http R.Spl. 					",2007-01-03,2017-07-28,6.8,User,Remote,Medium,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in Adobe Acrobat Reader Plugin before 8.0.0, when used with the Microsoft.XMLHTTP ActiveX object in Internet Explorer, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the javascript: URI in the (1) FDF, (2) XML, or (3) XFDF AJAX request parameters.					"
+"
+ 
+											129					",CVE-2006-6965,,"
+
+
+","
+						XSS Http R.Spl. 					",2007-01-29,2017-07-28,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in lib/exe/fetch.php in DokuWiki 2006-03-09e, and possibly earlier, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the media parameter.  NOTE: this issue can be leveraged for XSS attacks.					"
+"
+ 
+											130					",CVE-2006-6699,,"
+
+
+","
+						Http R.Spl. 					",2006-12-22,2018-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple CRLF injection vulnerabilities in Oracle Portal 9.0.2 and possibly other versions allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the enc parameter to (1) calendarDialog.jsp or (2) fred.jsp.  NOTE: the calendar.jsp vector is covered by CVE-2006-6697.					"
+"
+ 
+											131					",CVE-2006-6697,,"
+
+
+","
+						Http R.Spl. 					",2006-12-21,2018-10-17,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in webapp/jsp/calendar.jsp in Oracle Portal 10g and earlier, including 9.0.2, allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the enc parameter.					"
+"
+ 
+											132					",CVE-2006-6374,,"
+
+
+","
+						Http R.Spl. 					",2006-12-07,2018-10-17,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						Multiple CRLF injection vulnerabilities in PhpMyAdmin 2.7.0-pl2 allow remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in a phpMyAdmin cookie in (1) css/phpmyadmin.css.php, (2) db_create.php, (3) index.php, (4) left.php, (5) libraries/session.inc.php, (6) libraries/transformations/overview.php, (7) querywindow.php, (8) server_engines.php, and possibly other files.					"
+"
+ 
+											133					",CVE-2006-5566,,"
+
+
+","
+						Http R.Spl. 					",2006-10-27,2018-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in premium/index.php in Shop-Script allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the (1) links_exchange, (2) news, (3) search_with_change_category_ability, (4) logging, (5) feedback, (6) show_price, (7) register, (8) answer, (9) productID, and (10) inside parameters.					"
+"
+ 
+											134					",CVE-2006-4505,,"
+
+
+","
+						Http R.Spl. 					",2006-08-31,2018-10-17,7.5,User,Remote,Low,Not required,Partial,Partial,Partial,"
+						CRLF injection vulnerability in links.php in NX5Linx 1.0 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via a CRLF sequence in the url parameter.					"
+"
+ 
+											135					",CVE-2006-3105,,"
+
+
+","
+						Http R.Spl. 					",2006-06-20,2018-10-18,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Bitweaver 1.3 allows remote attackers to conduct HTTP response splitting attacks by via CRLF sequences in multiple unspecified parameters that are injected into HTTP headers, as demonstrated by the BWSESSION parameter in index.php.					"
+"
+ 
+											136					",CVE-2006-3016,,"
+
+
+","
+						Sql XSS Http R.Spl. 					",2006-06-14,2018-10-18,9.3,None,Remote,Medium,Not required,Complete,Complete,Complete,"
+						Unspecified vulnerability in session.c in PHP before 5.1.3 has unknown impact and attack vectors, related to ""certain characters in session names,"" including special characters that are frequently associated with CRLF injection, SQL injection, cross-site scripting (XSS), and HTTP response splitting vulnerabilities.  NOTE: while the nature of the vulnerability is unspecified, it is likely that this is related to a violation of an expectation by PHP applications that the session name is alphanumeric, as implied in the PHP manual for session_name().					"
+"
+ 
+											137					",CVE-2006-0207,94,"
+
+
+","
+						Http R.Spl. 					",2006-01-13,2018-10-30,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple HTTP response splitting vulnerabilities in PHP 5.1.1 allow remote attackers to inject arbitrary HTTP headers via a crafted Set-Cookie header, related to the (1) session extension (aka ext/session) and the (2) header function.					"
+"
+ 
+											138					",CVE-2005-4830,,"
+
+
+","
+						Http R.Spl. 					",2005-12-31,2018-10-19,7.6,Admin,Remote,High,Not required,Complete,Complete,Complete,"
+						CRLF injection vulnerability in viewcvs in ViewCVS 0.9.2 allows remote attackers to inject arbitrary HTTP headers and conduct HTTP response splitting attacks via CRLF sequences in the content-type parameter.					"
+"
+ 
+											139					",CVE-2005-4579,,"
+
+
+","
+						Http R.Spl. 					",2005-12-29,2017-07-19,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple HTTP response splitting vulnerabilities in Hitachi Business Logic - Container (BLC) P-2443-9114 01-00 through 02-06 on Windows, and P-1M43-9111 01-01 through 02-00 on AIX, allow remote attackers to inject arbitrary HTTP headers via unknown attack vectors in an unspecified input form.					"
+"
+ 
+											140					",CVE-2005-4521,,"
+
+
+","
+						Http R.Spl. 					",2005-12-27,2008-09-05,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Mantis 1.0.0rc3 and earlier allows remote attackers to modify HTTP headers and conduct HTTP response splitting attacks via (1) the return parameter in login_cookie_test.php and (2) ref parameter in login_select_proj_page.php.					"
+"
+ 
+											141					",CVE-2005-3982,,"
+
+
+","
+						Http R.Spl. 					",2005-12-04,2018-10-19,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in layers_toggle.php in WebCalendar 1.0.1 might allow remote attackers to modify HTTP headers and conduct HTTP response splitting attacks via the ret parameter, which is used to redirect URL requests.					"
+"
+ 
+											142					",CVE-2005-3791,,"
+
+
+","
+						Http R.Spl. 					",2005-11-24,2016-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						HTTP response splitting vulnerability in phpAdsNew and phpPgAds 2.0.6 and earlier allows remote attackers to inject arbitrary HTML headers via adclick.php and possibly other unspecified vectors.					"
+"
+ 
+											143					",CVE-2005-3633,,"
+
+
+","
+						Http R.Spl. 					",2005-11-16,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						HTTP response splitting vulnerability in frameset.htm in SAP Web Application Server (WAS) 6.10 through 7.00 allows remote attackers to inject arbitrary HTML headers via the sap-exiturl parameter.					"
+"
+ 
+											144					",CVE-2005-3621,,"
+
+
+","
+						Http R.Spl. 					",2005-11-16,2008-09-05,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in phpMyAdmin before 2.6.4-pl4 allows remote attackers to conduct HTTP response splitting attacks via unspecified scripts.					"
+"
+ 
+											145					",CVE-2005-3348,352,"
+
+
+","
+						Http R.Spl. 					",2005-11-17,2017-07-10,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						HTTP response splitting vulnerability in index.php in phpSysInfo 2.4 and earlier, as used in phpgroupware 0.9.16 and earlier, and egroupware before 1.0.0.009, allows remote attackers to spoof web content and poison web caches via CRLF sequences in the charset parameter.					"
+"
+ 
+											146					",CVE-2005-2065,,"
+
+
+","
+						Http R.Spl. 					",2005-06-29,2016-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						HTTP response splitting vulnerability in language_select.asp in ASP Nuke 0.80 allows remote attackers to spoof web content and poison web caches via CRLF (""%0d%0a"") sequences in the LangCode parameter.					"
+"
+ 
+											147					",CVE-2005-2060,,"
+
+
+","
+						Http R.Spl. 					",2005-06-29,2016-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple HTTP Response Splitting vulnerabilities in (1) toggleshow.php, (2) togglecats.php, and (3) showprofile.php in Infopop UBB.Threads before 6.5.2 Beta allow remote attackers to spoof web content and poison web caches via CRLF (""%0d%0a"") sequences in the Cat parameter.					"
+"
+ 
+											148					",CVE-2005-1951,,"
+
+
+","
+						Http R.Spl. 					",2005-06-16,2016-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Multiple HTTP Response Splitting vulnerabilities in osCommerce 2.2 Milestone 2 and earlier allow remote attackers to spoof web content and poison web caches via hex-encoded CRLF (""%0d%0a"") sequences in the (1) products_id or (2) pid parameter to index.php or (3) goto parameter to banner.php.					"
+"
+ 
+											149					",CVE-2005-1405,,"
+
+
+","
+						Http R.Spl. 					",2005-05-03,2017-07-10,2.1,None,Local,Low,Not required,None,Partial,None,"
+						HTTP response splitting vulnerability in the @SetHTTPHeader function in Lotus Domino 6.5.x before 6.5.4 and 6.0.x before 6.0.5 allows attackers to poison the web cache via malicious applications.					"
+"
+ 
+											150					",CVE-2005-1180,,"
+
+
+","
+						Http R.Spl. 					",2005-05-02,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						HTTP Response Splitting vulnerability in the Surveys module in PHP-Nuke 7.6 allows remote attackers to spoof web content and poison web caches via hex-encoded CRLF (""%0d%0a"") sequences in the forwarder parameter.					"
+"
+ 
+											151					",CVE-2005-0843,,"
+
+
+","
+						Http R.Spl. 					",2005-05-02,2016-10-17,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in search.php in Phorum 5.0.14a allows remote attackers to perform HTTP Response Splitting attacks via the body parameter, which is included in the resulting Location header.					"
+"
+ 
+											152					",CVE-2005-0175,,"
+
+
+","
+						Http R.Spl. 					",2005-02-07,2017-10-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						Squid 2.5 up to 2.5.STABLE7 allows remote attackers to poison the cache via an HTTP response splitting attack.					"
+"
+ 
+											153					",CVE-2004-2512,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in calendar.php in DCP-Portal 5.3.2 and earlier allows remote attackers to conduct HTTP response splitting attacks to spoof web content and poison web caches via CRLF (""%0d%0a"") sequences in the PHPSESSID parameter.					"
+"
+ 
+											154					",CVE-2004-2208,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2008-09-05,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Ideal Science IdealBB 1.4.9 through 1.5.3 allows remote attackers to conduct HTTP response splitting attacks via unknown vectors.					"
+"
+ 
+											155					",CVE-2004-2146,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in PD9 Software MegaBBS 2 and 2.1 allows attackers to conduct HTTP response splitting attacks via the fid parameter in a writenew action to thread-post.asp.					"
+"
+ 
+											156					",CVE-2004-2054,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in PhpBB 2.0.4 and 2.0.9 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via (1) the mode parameter to privmsg.php or (2) the redirect parameter to login.php.					"
+"
+ 
+											157					",CVE-2004-1687,,"
+
+
+","
+						Http R.Spl. 					",2004-09-16,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in down.asp for Snitz Forums 2000 3.4.04 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the location parameter.					"
+"
+ 
+											158					",CVE-2004-1656,,"
+
+
+","
+						Http R.Spl. 					",2004-09-01,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Comersus Shopping Cart 5.0991 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the redirecturl parameter.					"
+"
+ 
+											159					",CVE-2004-1620,,"
+
+
+","
+						Http R.Spl. 					",2004-10-21,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Serendipity before 0.7rc1 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the url parameter in (1) index.php and (2) exit.php, or (3) the HTTP Referer field in comment.php.					"
+"
+ 
+											160					",CVE-2004-1584,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in wp-login.php in WordPress 1.2 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the text parameter.					"
+"
+ 
+											161					",CVE-2004-1564,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in subscribe_thread.php in w-Agora 4.1.6a allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the thread parameter.					"
+"
+ 
+											162					",CVE-2004-1516,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in index.php in phpWebSite 0.9.3-4 allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server via the block_username parameter in the user module.					"
+"
+ 
+											163					",CVE-2004-1507,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in login.php in WebCalendar allows remote attackers to inject CRLF sequences via the return_path parameter and perform HTTP Response Splitting attacks to modify expected HTML content from the server.					"
+"
+ 
+											164					",CVE-2004-1470,,"
+
+
+","
+						Http R.Spl. 					",2004-12-31,2017-07-10,5.0,None,Remote,Low,Not required,None,Partial,None,"
+						CRLF injection vulnerability in SnipSnap 0.5.2a, and other versions before 1.0b1, allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server.					"
+"
+ 
+											165					",CVE-2003-1338,,"
+
+
+","
+						Http R.Spl. 					",2003-12-31,2010-06-23,4.3,None,Remote,Medium,Not required,None,Partial,None,"
+						CRLF injection vulnerability in Aprelium Abyss Web Server 1.1.2 and earlier allows remote attackers to inject arbitrary HTTP headers and possibly conduct HTTP Response Splitting attacks via CRLF sequences in the Location header.					"
